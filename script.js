@@ -1,4 +1,4 @@
-let myGrade = 0;
+let myGrade = 50;
 
 if (myGrade >= 90 ) {
     console.log("Great Job, You have an A");
@@ -12,3 +12,19 @@ if (myGrade >= 90 ) {
     console.log("You're failing. you have an F. do your work and turn it in!");
 }
 
+switch (myGrade > 0) {
+    case myGrade >= 90:
+        console.log("You have an A.");
+        break;
+    case myGrade >= 80 && myGrade < 90:
+        console.log("you have a B.");
+        break;
+    case myGrade >= 70 && myGrade < 80:
+        console.log("you have a C, you can do better.");
+        break;
+    case myGrade >= 60 && myGrade < 70:
+        console.log("you have a D. stop slacking off.");
+        break;
+    default:
+        console.log("You are failing. do better.");
+}
