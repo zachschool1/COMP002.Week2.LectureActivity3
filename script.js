@@ -28,3 +28,13 @@ switch (myGrade > 0) {
     default:
         console.log("You are failing. do better.");
 }
+
+//i like Switch Statements better as it seems a bit easier to implement and also looks a bit easier to understand, but I can see there being issues with things like forgetting to add break or default.
+
+for(let i = 1; i <= 100; i++) {
+    if (i % 2 == 1) {
+        console.log("!");
+    } else {
+        console.log(i);
+    }
+}
